@@ -1,0 +1,230 @@
+.background-img{
+    width: 100%;
+}
+.background{
+    position: relative;
+}
+.snowman{
+}
+.ball1{
+    width: 350px;
+    position: absolute;
+    bottom: 100px;
+    left: -90px;
+    animation: move1 10s infinite;
+}
+.ball2{
+    width: 250px;
+    position: absolute;
+    bottom: 100px;
+    left: -90px;
+    animation: move2 10s infinite;
+}
+.ball3{
+    width: 150px;
+    position: absolute;
+    bottom: 100px;
+    left: -90px;
+    animation: move3 10s infinite;
+}
+.face{
+    width: 80px;
+    bottom: 100px;
+    position: absolute;
+    left: -90px;
+    animation: facemove 10s infinite;
+}
+.button1{
+    width: 10px;
+    bottom: 100px;
+    position: absolute;
+    left: -90px;
+    animation: buttonmove1 10s infinite;
+}
+.button2{
+    width: 10px;
+    bottom: 100px;
+    position: absolute;
+    left: -90px;
+    animation: buttonmove2 10s infinite;
+}
+.button3{
+    width: 10px;
+    bottom: 100px;
+    position: absolute;
+    left: -90px;
+    animation: buttonmove3 10s infinite;
+}
+.left-hand{
+    width: 100px;
+    bottom: 100px;
+    position: absolute;
+    left: -90px;
+    animation: handmove 10s infinite;
+    transform-origin: bottom right;
+}
+.snowing{
+    width: 100%;
+    margin: 0 auto;
+}
+.snow{
+    width: 30px;
+    position: absolute;
+}
+.flake1{
+    top: 0;
+    left: 5%;
+    animation: snowmove1 5s infinite;
+}
+.flake2{
+    top: 50px;
+    left: 15%;
+    animation: snowmove1 7s infinite;
+}
+.flake3{
+    top: 0;
+    left: 20%;
+    animation: snowmove1 5s infinite;
+}
+.flake4{
+    top: 50px;
+    left: 25%;
+    animation: snowmove1 8s infinite;
+}
+.flake5{
+    top: 0;
+    left: 30%;
+    animation: snowmove1 6s infinite;
+}
+.flake6{
+    top: 50px;
+    left: 35%;
+    animation: snowmove1 4s infinite;
+}
+.flake7{
+    top: 0;
+    left: 40%;
+    animation: snowmove1 7s infinite;
+}
+.flake8{
+    top: 50px;
+    left: 45%;
+    animation: snowmove1 6s infinite;
+}
+.flake9{
+    top: 0;
+    left: 55%;
+    animation: snowmove1 5s infinite;
+}
+.flake10{
+    top: 50px;
+    left: 60%;
+    animation: snowmove1 4s infinite;
+}
+.flake11{
+    top: 0;
+    left: 10%;
+    animation: snowmove1 5s infinite;
+}
+.flake12{
+    top: 50px;
+    left: 55%;
+    animation: snowmove1 7s infinite;
+}
+.flake13{
+    top: 0;
+    left: 60%;
+    animation: snowmove1 5s infinite;
+}
+.flake14{
+    top: 50px;
+    left: 65%;
+    animation: snowmove1 8s infinite;
+}
+.flake15{
+    top: 0;
+    left: 70%;
+    animation: snowmove1 8s infinite;
+}
+.flake16{
+    top: 50px;
+    left: 75%;
+    animation: snowmove1 4s infinite;
+}
+.flake17{
+    top: 0;
+    left: 80%;
+    animation: snowmove1 6s infinite;
+}
+.flake18{
+    top: 50px;
+    left: 85%;
+    animation: snowmove1 6s infinite;
+}
+.flake19{
+    top: 0;
+    left: 95%;
+    animation: snowmove1 5s infinite;
+}
+.flake20{
+    top: 50px;
+    left: 100%;
+    animation: snowmove1 4s infinite;
+}
+
+
+
+@keyframes move1 {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 100px; left: 500px;}
+    100%  {bottom: 100px; left: 500px;}
+}
+@keyframes move2 {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 200px; left: 550px;}
+    100%  {bottom: 200px; left: 550px;}
+}
+@keyframes move3 {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 300px; left: 600px;}
+    100%  {bottom: 300px; left: 600px;}
+}
+@keyframes facemove {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 300px; left: 645px;}
+    100%  {bottom: 300px; left: 645px;}
+}
+@keyframes buttonmove1 {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 200px; left: 670px;}
+    100%  {bottom: 200px; left: 670px;}
+}
+@keyframes buttonmove2 {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 250px; left: 670px;}
+    100%  {bottom: 250px; left: 670px;}
+}
+@keyframes buttonmove3 {
+    0%   {bottom: 100px; left: -90px;}
+    30%  {bottom: 300px; left: 670px;}
+    100%  {bottom: 300px; left: 670px;}
+}
+@keyframes handmove {
+    0% {bottom: 100px; left: -90px;}
+    30%  {bottom: 250px; left: 540px;}
+    30% {transform: rotate(15deg);}
+    40% {transform: rotate(-15deg);}
+    50% {transform: rotate(15deg);}
+    60% {transform: rotate(-15deg);}
+    70% {transform: rotate(15deg);}
+    80% {transform: rotate(-15deg);}
+    90% {transform: rotate(15deg);}
+    100%  {bottom: 250px; left: 540px;}
+
+}
+
+@keyframes snowmove1 {
+    from {top: 0;}
+    to {top: 760px;}
+}
+
